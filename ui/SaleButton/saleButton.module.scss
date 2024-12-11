@@ -1,0 +1,16 @@
+.customButton {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+  border: 1px solid rgba(0, 0, 0, 0.275);
+  color: rgb(236 254 255 / var(--tw-text-opacity, 1));
+  padding: 4px 8px;
+  transition: all 0.5;
+
+  &:hover {
+    box-shadow: 5px 5px 20px 0 rgba(128, 128, 128, 0.201);
+  }
+}

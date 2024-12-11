@@ -27,7 +27,7 @@ const Ticket: FC<Props> = ({ data }) => {
   return (
     <button className={style.ticket}>
       <div className={style.left}>
-        <Image src={logo} alt="logo" className='h-20 w-1/2'/>
+        <Image src={logo} height={80} alt="logo" className="h-20 w-1/2" />
         <SaleButton>{price}</SaleButton>
       </div>
       <div className={style.right}>
