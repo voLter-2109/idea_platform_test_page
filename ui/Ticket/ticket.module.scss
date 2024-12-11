@@ -1,0 +1,60 @@
+.ticket {
+  width: 100%;
+  min-width: 300px;
+  height: 150px;
+  box-shadow: 0 0px 10px 0 rgba(128, 128, 128, 0.294);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+
+  display: flex;
+  flex-wrap: nowrap;
+
+  &:hover {
+    box-shadow: 10px 10px 10px 0 rgba(128, 128, 128, 0.177);
+  }
+
+  .left {
+    border-right: 1px solid rgba(128, 128, 128, 0.288);
+    width: 40%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    width: 60%;
+    padding: 10px;
+
+    display: flex;
+
+    & > div {
+      flex: 1;
+    }
+  }
+
+  .test {
+    width: fit-content;
+  }
+
+  .stops {
+    color: gray;
+    text-align: center;
+    height: fit-content;
+    border-bottom: 1px solid gray;
+  }
+
+  .time {
+    font-size: 2rem;
+  }
+
+  .originName {
+    font-size: 0.8rem;
+  }
+
+  .date {
+    font-size: 0.9rem;
+    color: gray;
+  }
+}
